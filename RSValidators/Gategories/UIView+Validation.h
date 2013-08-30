@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UITextField+Validation.h"
 
 @interface UIView (Validation)
 

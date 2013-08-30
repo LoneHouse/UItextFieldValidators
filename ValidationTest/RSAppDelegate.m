@@ -7,7 +7,6 @@
 //
 
 #import "RSAppDelegate.h"
-#import "RSValidators/RSValidators.h"
 
 @implementation RSAppDelegate
 
