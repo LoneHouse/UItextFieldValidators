@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30144B3B17CF0E1A0042A189 /* ValidationError.png in Resources */ = {isa = PBXBuildFile; fileRef = 30144B3917CF0E1A0042A189 /* ValidationError.png */; };
+		30144B4717CF122F0042A189 /* RSHintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30144B4517CF122F0042A189 /* RSHintViewController.m */; };
+		30144B4817CF122F0042A189 /* RSHintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30144B4617CF122F0042A189 /* RSHintViewController.xib */; };
+		30144B4B17CF1B570042A189 /* RSEmptyValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 30144B4A17CF1B570042A189 /* RSEmptyValidator.m */; };
+		30144B4E17CF1B6F0042A189 /* RSEmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 30144B4D17CF1B6F0042A189 /* RSEmailValidator.m */; };
+		30144B5117CF1EE20042A189 /* RSEqualValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 30144B5017CF1EE20042A189 /* RSEqualValidator.m */; };
+		301D039917D0B67500468816 /* RSErrorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 301D039817D0B67500468816 /* RSErrorCell.m */; };
+		301D039B17D0B69100468816 /* RSErrorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 301D039A17D0B69100468816 /* RSErrorCell.xib */; };
+		301D039F17D0D36900468816 /* RSCustomValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 301D039E17D0D36900468816 /* RSCustomValidator.m */; };
+		3053BD2917CB267600F31DD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3053BD2817CB267600F31DD2 /* UIKit.framework */; };
+		3053BD2B17CB267600F31DD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3053BD2A17CB267600F31DD2 /* Foundation.framework */; };
+		3053BD2D17CB267600F31DD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3053BD2C17CB267600F31DD2 /* CoreGraphics.framework */; };
+		3053BD3317CB267600F31DD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3053BD3117CB267600F31DD2 /* InfoPlist.strings */; };
+		3053BD3517CB267600F31DD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3053BD3417CB267600F31DD2 /* main.m */; };
+		3053BD3917CB267600F31DD2 /* RSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3053BD3817CB267600F31DD2 /* RSAppDelegate.m */; };
+		3053BD3B17CB267600F31DD2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3053BD3A17CB267600F31DD2 /* Default.png */; };
+		3053BD3D17CB267600F31DD2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3053BD3C17CB267600F31DD2 /* Default@2x.png */; };
+		3053BD3F17CB267600F31DD2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3053BD3E17CB267600F31DD2 /* Default-568h@2x.png */; };
+		3053BD4517CB267600F31DD2 /* RSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3053BD4417CB267600F31DD2 /* RSViewController.m */; };
+		3053BD4C17CB26A000F31DD2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3053BD4B17CB26A000F31DD2 /* MainStoryboard.storyboard */; };
+		3053BD4E17CB26AB00F31DD2 /* cat_tied.png in Resources */ = {isa = PBXBuildFile; fileRef = 3053BD4D17CB26AB00F31DD2 /* cat_tied.png */; };
+		309829D017CB56D2005C7D29 /* UITextField+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 309829C317CB56D2005C7D29 /* UITextField+Validation.m */; };
+		309829D217CB56D2005C7D29 /* RSValidators.m in Sources */ = {isa = PBXBuildFile; fileRef = 309829CA17CB56D2005C7D29 /* RSValidators.m */; };
+		309829D317CB56D2005C7D29 /* Validator.m in Sources */ = {isa = PBXBuildFile; fileRef = 309829CF17CB56D2005C7D29 /* Validator.m */; };
+		30990D7E17D07FC10025FC03 /* UIView+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 30990D7D17D07FC10025FC03 /* UIView+Validation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30144B3917CF0E1A0042A189 /* ValidationError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ValidationError.png; sourceTree = "<group>"; };
+		30144B4417CF122F0042A189 /* RSHintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSHintViewController.h; sourceTree = "<group>"; };
+		30144B4517CF122F0042A189 /* RSHintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSHintViewController.m; sourceTree = "<group>"; };
+		30144B4617CF122F0042A189 /* RSHintViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSHintViewController.xib; sourceTree = "<group>"; };
+		30144B4917CF1B570042A189 /* RSEmptyValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSEmptyValidator.h; sourceTree = "<group>"; };
+		30144B4A17CF1B570042A189 /* RSEmptyValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSEmptyValidator.m; sourceTree = "<group>"; };
+		30144B4C17CF1B6F0042A189 /* RSEmailValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSEmailValidator.h; sourceTree = "<group>"; };
+		30144B4D17CF1B6F0042A189 /* RSEmailValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSEmailValidator.m; sourceTree = "<group>"; };
+		30144B4F17CF1EE20042A189 /* RSEqualValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSEqualValidator.h; sourceTree = "<group>"; };
+		30144B5017CF1EE20042A189 /* RSEqualValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSEqualValidator.m; sourceTree = "<group>"; };
+		301D039717D0B67500468816 /* RSErrorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSErrorCell.h; sourceTree = "<group>"; };
+		301D039817D0B67500468816 /* RSErrorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSErrorCell.m; sourceTree = "<group>"; };
+		301D039A17D0B69100468816 /* RSErrorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSErrorCell.xib; sourceTree = "<group>"; };
+		301D039D17D0D36900468816 /* RSCustomValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCustomValidator.h; sourceTree = "<group>"; };
+		301D039E17D0D36900468816 /* RSCustomValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCustomValidator.m; sourceTree = "<group>"; };
+		3053BD2517CB267600F31DD2 /* ValidationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValidationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3053BD2817CB267600F31DD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3053BD2A17CB267600F31DD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3053BD2C17CB267600F31DD2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3053BD3017CB267600F31DD2 /* ValidationTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ValidationTest-Info.plist"; sourceTree = "<group>"; };
+		3053BD3217CB267600F31DD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3053BD3417CB267600F31DD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3053BD3617CB267600F31DD2 /* ValidationTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ValidationTest-Prefix.pch"; sourceTree = "<group>"; };
+		3053BD3717CB267600F31DD2 /* RSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAppDelegate.h; sourceTree = "<group>"; };
+		3053BD3817CB267600F31DD2 /* RSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAppDelegate.m; sourceTree = "<group>"; };
+		3053BD3A17CB267600F31DD2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3053BD3C17CB267600F31DD2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3053BD3E17CB267600F31DD2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3053BD4317CB267600F31DD2 /* RSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSViewController.h; sourceTree = "<group>"; };
+		3053BD4417CB267600F31DD2 /* RSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSViewController.m; sourceTree = "<group>"; };
+		3053BD4B17CB26A000F31DD2 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3053BD4D17CB26AB00F31DD2 /* cat_tied.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_tied.png; sourceTree = "<group>"; };
+		309829C217CB56D2005C7D29 /* UITextField+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Validation.h"; sourceTree = "<group>"; };
+		309829C317CB56D2005C7D29 /* UITextField+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Validation.m"; sourceTree = "<group>"; };
+		309829C917CB56D2005C7D29 /* RSValidators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSValidators.h; sourceTree = "<group>"; };
+		309829CA17CB56D2005C7D29 /* RSValidators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSValidators.m; sourceTree = "<group>"; };
+		309829CE17CB56D2005C7D29 /* Validator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Validator.h; sourceTree = "<group>"; };
+		309829CF17CB56D2005C7D29 /* Validator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Validator.m; sourceTree = "<group>"; };
+		30990D7C17D07FC10025FC03 /* UIView+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Validation.h"; sourceTree = "<group>"; };
+		30990D7D17D07FC10025FC03 /* UIView+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Validation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3053BD2217CB267600F31DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3053BD2917CB267600F31DD2 /* UIKit.framework in Frameworks */,
+				3053BD2B17CB267600F31DD2 /* Foundation.framework in Frameworks */,
+				3053BD2D17CB267600F31DD2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30144B3817CF0E1A0042A189 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				30144B3917CF0E1A0042A189 /* ValidationError.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		30144B3A17CF0E1A0042A189 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		301D039617D0926900468816 /* ErrorCell */ = {
+			isa = PBXGroup;
+			children = (
+				301D039717D0B67500468816 /* RSErrorCell.h */,
+				301D039817D0B67500468816 /* RSErrorCell.m */,
+				301D039A17D0B69100468816 /* RSErrorCell.xib */,
+			);
+			path = ErrorCell;
+			sourceTree = "<group>";
+		};
+		301D039C17D0D34700468816 /* CustomValidators */ = {
+			isa = PBXGroup;
+			children = (
+				301D039D17D0D36900468816 /* RSCustomValidator.h */,
+				301D039E17D0D36900468816 /* RSCustomValidator.m */,
+			);
+			path = CustomValidators;
+			sourceTree = "<group>";
+		};
+		3053BD1C17CB267600F31DD2 = {
+			isa = PBXGroup;
+			children = (
+				309829C017CB56D2005C7D29 /* RSValidators */,
+				3053BD2E17CB267600F31DD2 /* ValidationTest */,
+				3053BD2717CB267600F31DD2 /* Frameworks */,
+				3053BD2617CB267600F31DD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3053BD2617CB267600F31DD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3053BD2517CB267600F31DD2 /* ValidationTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3053BD2717CB267600F31DD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3053BD2817CB267600F31DD2 /* UIKit.framework */,
+				3053BD2A17CB267600F31DD2 /* Foundation.framework */,
+				3053BD2C17CB267600F31DD2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3053BD2E17CB267600F31DD2 /* ValidationTest */ = {
+			isa = PBXGroup;
+			children = (
+				3053BD4D17CB26AB00F31DD2 /* cat_tied.png */,
+				3053BD3717CB267600F31DD2 /* RSAppDelegate.h */,
+				3053BD3817CB267600F31DD2 /* RSAppDelegate.m */,
+				3053BD4317CB267600F31DD2 /* RSViewController.h */,
+				3053BD4417CB267600F31DD2 /* RSViewController.m */,
+				3053BD4B17CB26A000F31DD2 /* MainStoryboard.storyboard */,
+				3053BD2F17CB267600F31DD2 /* Supporting Files */,
+			);
+			path = ValidationTest;
+			sourceTree = "<group>";
+		};
+		3053BD2F17CB267600F31DD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3053BD3017CB267600F31DD2 /* ValidationTest-Info.plist */,
+				3053BD3117CB267600F31DD2 /* InfoPlist.strings */,
+				3053BD3417CB267600F31DD2 /* main.m */,
+				3053BD3617CB267600F31DD2 /* ValidationTest-Prefix.pch */,
+				3053BD3A17CB267600F31DD2 /* Default.png */,
+				3053BD3C17CB267600F31DD2 /* Default@2x.png */,
+				3053BD3E17CB267600F31DD2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		309829C017CB56D2005C7D29 /* RSValidators */ = {
+			isa = PBXGroup;
+			children = (
+				309829C117CB56D2005C7D29 /* Gategories */,
+				309829C417CB56D2005C7D29 /* Helpers */,
+				309829C517CB56D2005C7D29 /* HintViewController */,
+				309829C617CB56D2005C7D29 /* Resources */,
+				309829C917CB56D2005C7D29 /* RSValidators.h */,
+				309829CA17CB56D2005C7D29 /* RSValidators.m */,
+				309829CB17CB56D2005C7D29 /* Validators */,
+			);
+			path = RSValidators;
+			sourceTree = "<group>";
+		};
+		309829C117CB56D2005C7D29 /* Gategories */ = {
+			isa = PBXGroup;
+			children = (
+				309829C217CB56D2005C7D29 /* UITextField+Validation.h */,
+				309829C317CB56D2005C7D29 /* UITextField+Validation.m */,
+				30990D7C17D07FC10025FC03 /* UIView+Validation.h */,
+				30990D7D17D07FC10025FC03 /* UIView+Validation.m */,
+			);
+			path = Gategories;
+			sourceTree = "<group>";
+		};
+		309829C417CB56D2005C7D29 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		309829C517CB56D2005C7D29 /* HintViewController */ = {
+			isa = PBXGroup;
+			children = (
+				301D039617D0926900468816 /* ErrorCell */,
+				30144B4417CF122F0042A189 /* RSHintViewController.h */,
+				30144B4517CF122F0042A189 /* RSHintViewController.m */,
+				30144B4617CF122F0042A189 /* RSHintViewController.xib */,
+			);
+			path = HintViewController;
+			sourceTree = "<group>";
+		};
+		309829C617CB56D2005C7D29 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30144B3817CF0E1A0042A189 /* Images */,
+				30144B3A17CF0E1A0042A189 /* Text */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		309829CB17CB56D2005C7D29 /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				301D039C17D0D34700468816 /* CustomValidators */,
+				309829CC17CB56D2005C7D29 /* DefaultValidators */,
+				309829CD17CB56D2005C7D29 /* Interface */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+		309829CC17CB56D2005C7D29 /* DefaultValidators */ = {
+			isa = PBXGroup;
+			children = (
+				30144B4917CF1B570042A189 /* RSEmptyValidator.h */,
+				30144B4A17CF1B570042A189 /* RSEmptyValidator.m */,
+				30144B4C17CF1B6F0042A189 /* RSEmailValidator.h */,
+				30144B4D17CF1B6F0042A189 /* RSEmailValidator.m */,
+				30144B4F17CF1EE20042A189 /* RSEqualValidator.h */,
+				30144B5017CF1EE20042A189 /* RSEqualValidator.m */,
+			);
+			path = DefaultValidators;
+			sourceTree = "<group>";
+		};
+		309829CD17CB56D2005C7D29 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				309829CE17CB56D2005C7D29 /* Validator.h */,
+				309829CF17CB56D2005C7D29 /* Validator.m */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3053BD2417CB267600F31DD2 /* ValidationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3053BD4817CB267600F31DD2 /* Build configuration list for PBXNativeTarget "ValidationTest" */;
+			buildPhases = (
+				3053BD2117CB267600F31DD2 /* Sources */,
+				3053BD2217CB267600F31DD2 /* Frameworks */,
+				3053BD2317CB267600F31DD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ValidationTest;
+			productName = ValidationTest;
+			productReference = 3053BD2517CB267600F31DD2 /* ValidationTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3053BD1D17CB267600F31DD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Roman Sidorakin";
+			};
+			buildConfigurationList = 3053BD2017CB267600F31DD2 /* Build configuration list for PBXProject "ValidationTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3053BD1C17CB267600F31DD2;
+			productRefGroup = 3053BD2617CB267600F31DD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3053BD2417CB267600F31DD2 /* ValidationTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3053BD2317CB267600F31DD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3053BD3317CB267600F31DD2 /* InfoPlist.strings in Resources */,
+				3053BD3B17CB267600F31DD2 /* Default.png in Resources */,
+				3053BD3D17CB267600F31DD2 /* Default@2x.png in Resources */,
+				3053BD3F17CB267600F31DD2 /* Default-568h@2x.png in Resources */,
+				3053BD4C17CB26A000F31DD2 /* MainStoryboard.storyboard in Resources */,
+				3053BD4E17CB26AB00F31DD2 /* cat_tied.png in Resources */,
+				30144B3B17CF0E1A0042A189 /* ValidationError.png in Resources */,
+				30144B4817CF122F0042A189 /* RSHintViewController.xib in Resources */,
+				301D039B17D0B69100468816 /* RSErrorCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3053BD2117CB267600F31DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3053BD3517CB267600F31DD2 /* main.m in Sources */,
+				3053BD3917CB267600F31DD2 /* RSAppDelegate.m in Sources */,
+				3053BD4517CB267600F31DD2 /* RSViewController.m in Sources */,
+				309829D017CB56D2005C7D29 /* UITextField+Validation.m in Sources */,
+				309829D217CB56D2005C7D29 /* RSValidators.m in Sources */,
+				309829D317CB56D2005C7D29 /* Validator.m in Sources */,
+				30144B4717CF122F0042A189 /* RSHintViewController.m in Sources */,
+				30144B4B17CF1B570042A189 /* RSEmptyValidator.m in Sources */,
+				30144B4E17CF1B6F0042A189 /* RSEmailValidator.m in Sources */,
+				30144B5117CF1EE20042A189 /* RSEqualValidator.m in Sources */,
+				30990D7E17D07FC10025FC03 /* UIView+Validation.m in Sources */,
+				301D039917D0B67500468816 /* RSErrorCell.m in Sources */,
+				301D039F17D0D36900468816 /* RSCustomValidator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3053BD3117CB267600F31DD2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3053BD3217CB267600F31DD2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3053BD4617CB267600F31DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		3053BD4717CB267600F31DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3053BD4917CB267600F31DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ValidationTest/ValidationTest-Prefix.pch";
+				INFOPLIST_FILE = "ValidationTest/ValidationTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3053BD4A17CB267600F31DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ValidationTest/ValidationTest-Prefix.pch";
+				INFOPLIST_FILE = "ValidationTest/ValidationTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3053BD2017CB267600F31DD2 /* Build configuration list for PBXProject "ValidationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3053BD4617CB267600F31DD2 /* Debug */,
+				3053BD4717CB267600F31DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3053BD4817CB267600F31DD2 /* Build configuration list for PBXNativeTarget "ValidationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3053BD4917CB267600F31DD2 /* Debug */,
+				3053BD4A17CB267600F31DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3053BD1D17CB267600F31DD2 /* Project object */;
+}
