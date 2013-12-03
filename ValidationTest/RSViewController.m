@@ -23,7 +23,7 @@
 }
 
 -(void)viewWillAppear:(BOOL)animated{
-	[self.view setValidationMode:ValidationAll];
+	[self.view setValidationMode:ValidationUntillError];
 	[self.nameField addContentValidator:[[RSEmptyValidator alloc]init]];
 	[self.nameField addContentValidator:[[RSCustomValidator alloc]initWithPattern:@"^(?=.*[a-z])\\w{7,15}\\s*$" andFailMessage:@"Only symbols allowed, not numbers! Length must be 7-15 symbols."]];
 	

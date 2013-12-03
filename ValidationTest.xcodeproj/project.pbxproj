@@ -185,7 +185,6 @@
 			isa = PBXGroup;
 			children = (
 				309829C117CB56D2005C7D29 /* Gategories */,
-				309829C417CB56D2005C7D29 /* Helpers */,
 				309829C517CB56D2005C7D29 /* HintViewController */,
 				309829C617CB56D2005C7D29 /* Resources */,
 				309829C917CB56D2005C7D29 /* RSValidators.h */,
@@ -204,13 +203,6 @@
 				30990D7D17D07FC10025FC03 /* UIView+Validation.m */,
 			);
 			path = Gategories;
-			sourceTree = "<group>";
-		};
-		309829C417CB56D2005C7D29 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 		309829C517CB56D2005C7D29 /* HintViewController */ = {

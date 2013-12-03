@@ -11,22 +11,26 @@
 
 @implementation UIView (Validation)
 
--(BOOL)validateAllFields{
+- (BOOL)validateAllFields {
 	BOOL isValid = YES;
-	for (UIView * subview in self.subviews) {
+	for (UIView *subview in self.subviews) {
 		if ([subview class] == [UITextField class]) {
-			UITextField *subviewTextField = (UITextField *) subview;
-			if (![subviewTextField validateContent])
+			UITextField *subviewTextField = (UITextField *)subview;
+			if (![subviewTextField validateContent]) {
 				isValid = NO;
+				if (subviewTextField.validationMode == ValidationUntillError) {
+					break;
+				}
+			}
 		}
 	}
 	return isValid;
 }
 
--(void) setValidationMode: (enum ValidationMode) mode{
-	for (UIView * subview in self.subviews) {
+- (void)setValidationMode:(enum ValidationMode)mode {
+	for (UIView *subview in self.subviews) {
 		if ([subview class] == [UITextField class]) {
-			UITextField *subviewTextField = (UITextField *) subview;
+			UITextField *subviewTextField = (UITextField *)subview;
 			[subviewTextField setValidationMode:mode];
 		}
 	}
