@@ -64,7 +64,7 @@ enum ValidationMode _validationMode;
 }
 
 + (void)swizzingDown {
-	method_exchangeImplementations(class_getInstanceMethod(self, @selector(initValuesByDefaultsWithFrame)), class_getInstanceMethod(self, @selector(initWithFrame:)));
+	method_exchangeImplementations(class_getInstanceMethod(self, @selector(initValuesByDefaultsWithFrame:)), class_getInstanceMethod(self, @selector(initWithFrame:)));
 	method_exchangeImplementations(class_getInstanceMethod(self, @selector(initValuesByDefaultsWithCoder:)), class_getInstanceMethod(self, @selector(initWithCoder:)));
 }
 
